@@ -1,0 +1,1 @@
+"D:\软件\微信开发者工具\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-5gpw94u719cc406f --n quickstartFunctions --r --project "D:\学习\大三下课件与学习资料\电子系统综合设计\小程序\智习室" --report_first --report

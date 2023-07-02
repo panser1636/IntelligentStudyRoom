@@ -1,0 +1,69 @@
+{
+    "cloud": true,
+    "pages": [
+        "pages/index/index",
+        "pages/getuser/getuser",
+        "pages/my/my",
+        "pages/dqyy/dqyy",
+        "pages/wdyy/wdyy",
+        "pages/news/news",
+        "pages/sm/sm",
+        "pages/zwyy/zwyy",
+        "pages/zwyd/zwyd",
+        "pages/jdjb/jdjb",
+        "pages/fqjb/fqjb",  
+        "pages/qxyy/qxyy",
+        "pages/dkjl/dkjl",
+        "pages/lsyy/lsyy",
+        "pages/sfm/sfm",
+        "pages/xgxx/xgxx",
+        "pages/grzl/grzl",
+        "pages/glht/glht",
+        "pages/fwzx/fwzx",
+        "pages/yjfk/yjfk",
+        "pages/zxs/zxs"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#4169E1",
+        "navigationBarTitleText": "智习室",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/shenghuo.png",
+                "selectedIconPath": "images/shenghuo1.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/dqyy/dqyy",
+                "iconPath": "images/xuexiao.png",
+                "selectedIconPath": "images/xuexiao1.png",
+                "text": "当前预约"
+            },
+            {
+                "pagePath": "pages/wdyy/wdyy",
+                "iconPath": "images/guahao.png",
+                "selectedIconPath": "images/guahao1.png",
+                "text": "我的预约"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "iconPath": "images/tuandui.png",
+                "selectedIconPath": "images/tuandui1.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2",
+    "useExtendedLib": {
+        "weui": true
+    }
+}

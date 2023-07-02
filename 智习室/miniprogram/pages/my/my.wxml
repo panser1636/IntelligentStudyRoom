@@ -1,0 +1,79 @@
+<!--pages/my/my.wxml-->
+<view class="my_top">
+  <image src="../../images/1035211.jpg"></image>
+</view>
+<view class="my_logo" wx:if="{{openid!='' & userInfo!=''}}">
+  <view class="my_logo_pho">
+    <image  class="userinfo-avatar" src="{{userInfo[0].userphoto}}" mode="cover"></image>
+  </view>
+  <view class="my_logo_text">
+    <text class="user-name">{{userInfo[0].name}}</text>
+  </view>
+</view>
+<view class="my_logo" wx:if="{{openid=='' | userInfo==''}}">
+  <view class="top_title">您还未授权登录</view>
+  <button bindtap="getopenid" type="default">登录</button>
+</view>
+<view class="nav_my">
+  <view class="nav_bar" bindtap="sfm">
+      <view class="nav_bar_logo">
+        <image src="../../images/shenfenma.png"></image>
+      </view>
+      <view class="nar_bar_text">身份码</view>
+  </view>
+  <view class="nav_bar" bindtap="lsyy">
+      <view class="nav_bar_logo">
+        <image src="../../images/zhinan.png"></image>
+      </view>
+      <view class="nar_bar_text">历史预约</view>
+  </view>
+  <view class="nav_bar" bindtap="fwzx">
+      <view class="nav_bar_logo">
+        <image src="../../images/kefuguanli.png"></image>
+      </view>
+      <view class="nar_bar_text">服务中心</view>
+  </view>
+</view>
+<view class="banner-xx">
+    <view class="ban-t"  bindtap='grzl'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/zhanghaoguanli.png"></image>
+            </view>
+            <view class="ban-tx">
+                个人资料
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='showgyqfk'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/tuandui.png"></image>
+            </view>
+            <view class="ban-tx">
+                意见反馈
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='showgl'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/chakandingdan.png"></image>
+            </view>
+            <view class="ban-tx">
+                管理后台
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='tcdl'>
+        <view class="ban-row-t">
+            <!-- <view class="ban-im">
+                <image src="../../images/qiyeguanli.png"></image>
+            </view> -->
+            <view class="ban-tx-t">
+                退出登录
+            </view>
+        </view>
+    </view>
+    
+</view>

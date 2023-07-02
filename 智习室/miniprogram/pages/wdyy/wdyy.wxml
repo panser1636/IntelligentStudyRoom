@@ -1,0 +1,58 @@
+<!--pages/dk/dk.wxml-->
+<view class="dk_top">
+  <image src="../../images/17972299.png" mode="aspectFill"></image>
+</view>
+<view class="dk_top_bar">
+  <view class="user_logo">
+    <view class="user_logo_image">
+      <image src="{{userinfo[0].userphoto}}"></image>
+    </view>
+    <view class="user_text">
+      <view class="user_text1">Hi, {{userinfo[0].name}} !</view>
+      <view class="user_ljqd">累计签到{{qdcs}}次啦~</view>
+    </view>
+  </view>
+</view>
+<view class="dkjm">
+  <view class="dk_row1">
+    <view class="dk_row_zpmain" bindtap="qdqt">
+      <view class="dk_row_zp">
+        <image src="../../images/dk.png"></image>
+      </view>
+      <view class="dk_row_zp_text">签到签退</view>
+    </view>
+    <view class="dk_row_zpmain" bindtap="dkjl">
+      <view class="dk_row_zp">
+        <image src="../../images/jl.png"></image>
+      </view>
+      <view class="dk_row_zp_text">打卡记录</view>
+    </view>
+  </view>
+  <view class="dk_row2">
+    <!-- <view class="dk_row2_bar">
+      <view class="dk_row2_bar_sz">{{cdcs}}</view>
+      <view class="dk_row2_bar_mz">迟到</view>
+    </view> -->
+    <view class="dk_row2_bar">
+      <view class="dk_row2_bar_sz">{{qkcs}}</view>
+      <view class="dk_row2_bar_mz">缺卡</view>
+    </view>
+    <!-- <view class="dk_row2_bar">
+      <view class="dk_row2_bar_sz">{{ztcs}}</view>
+      <view class="dk_row2_bar_mz">早退</view>
+    </view> -->
+    <view class="dk_row2_bar">
+      <view class="dk_row2_bar_sz">{{qxcs}}</view>
+      <view class="dk_row2_bar_mz">取消</view>
+    </view>
+  </view>
+</view>
+<view class="jqdk">
+  <view class="jqdk_title">近期预约提醒</view>
+  <view class="jqdk_main">
+    <view class="jqdk_main_text1">预约座位: {{xzxx[0].zwList[0].bh}}</view>
+    <view class="jqdk_main_text2">预约时间:  {{xzxx[0]._createTime}}</view>
+    <view class="jqdk_main_text2" wx:if="{{xzxx[0].qdsj!=''}}">打卡时间:  {{xzxx[0].qdsj}}</view>
+    <view class="jqdk_main_text2" wx:if="{{xzxx[0].qdsj==''}}">打卡时间:  暂未签到</view>
+  </view>
+</view>

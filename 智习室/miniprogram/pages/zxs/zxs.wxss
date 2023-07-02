@@ -1,0 +1,149 @@
+/* pages/zxs/zxs.wxss */
+/**index.wxss**/
+.top{
+  margin-top: 50px;
+  height: 250rpx;
+  margin-left: 0rpx;
+  width: 90%;
+  background-image: linear-gradient(to right, rgba(7, 53, 180, 0.103) , rgba(229, 226, 226, 0.253));
+  margin:90rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+}
+.userinfo {
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(17, 20, 63);
+    font-size: 15px; /*文字大小*/
+    float: left;
+    margin-left: 70rpx;
+    position: relative;
+  }
+
+  .userinfoc {
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(17, 20, 63);
+    font-size: 15px; /*文字大小*/
+    float: left;
+    margin-left: 0rpx;
+  }
+  
+  .img {
+    width: 150rpx;
+    height: 150rpx;
+  }
+
+  .container {
+    /*  这里要注意，根据需要可以把  position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    换成 width: 100%; height: 80%;来实现页面的布局。
+    根据自己的需要改变即可，否则不会出页面。。。。
+  */
+  width: 100%;
+  height: 630rpx;
+    /* align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box; */
+  }
+  
+  ec-canvas {
+    width: 100%;
+    height: 630rox;
+  }
+  
+  .ctl{
+    position: relative;
+    left: 50rpx;
+    width: 85%;
+    height:40px;
+    display:block;
+    font-size: larger;
+    border-left: 10rpx solid rgb(77, 121, 204);
+    border-bottom: 2rpx solid rgb(172, 174, 177);
+  }
+  .text{
+    margin-top: 5px;
+    position: relative;
+    left: 5px;
+  }
+  .blank{
+    height:10px;
+  }
+
+  .settingbuttun1[plain]{
+    widows: 30px;
+    height: 30px;
+    float:right;
+    text-align: left;
+    border: none;
+    position:relative;
+    bottom: 5px;
+    }
+
+    .display_show,.display_show2,.display_show3{
+      display: block;
+      border: 1px solid;    
+      border-color: beige;
+      padding: 10px;
+    }
+    .display_none,.display_none2,.display_none3{
+      display: none;
+    }
+
+  .image{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 230rpx;
+    margin-top: 5px;
+  }
+  
+  .lightctl{
+    width: 100%;
+    height: 700rpx;
+  }
+
+  .ban-t{
+    width: 90%;
+    height: 100rpx;
+    margin: 0 auto;
+  }
+  .ban-tx{
+    position: relative;
+    right: 100rpx;
+    padding-top: 25rpx;
+    height: 100rpx;
+    text-align: left;
+    color: rgb(53, 52, 52);
+    font-size: 35rpx;
+    font-weight: 450;
+  }
+  .ban-row{
+    width: 100%;
+    border-bottom:1rpx solid rgb(230, 229, 229);
+  }
+  .section{
+    float: left;
+    position: relative;
+    left: 620rpx;
+  }
+
+  .light{
+      width: 100%;
+      height: 50rpx; 
+  }
+
+  .button1{
+    width: 30%;
+    height:40rpx;
+    margin: 5%;
+    float: left;
+  }
+
+  .usermotto {
+    margin-top: 200px;
+  }
