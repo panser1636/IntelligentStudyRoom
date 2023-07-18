@@ -1,7 +1,7 @@
 # IntelligentStudyRoom
 借鉴于up主：https://www.bilibili.com/video/BV1FS4y1o7yZ/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click
 
-并在此基础上增加了小程序超控的功能，超控使用的是onenet云平台+esp8266+温度传感、led灯、电机、光照传感器
+并在此基础上完善相关逻辑，去除了图书管理相关功能，增加小程序超控功能，超控使用的是onenet云平台+esp8266+温度传感、led灯、电机、光照传感器
 
 # 主体功能
 Here are the main functions.
